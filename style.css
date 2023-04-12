@@ -1,0 +1,72 @@
+h1{
+    color: black;
+}
+.Brasileirão{
+    background-color: rgba(1, 184, 1, 0.801);
+    height: 100px;
+}
+.titulo{
+    text-align: center;
+}
+h1{
+    color: white;
+}
+ul{
+    color: white;
+}
+.rodapé{
+    background-color: rgba(1, 184, 1, 0.801);
+}
+.santos{
+    width: 225px;
+    height: 225px;
+}
+button{
+    background-color: white;
+}
+p{
+    margin: 10px;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.imagem{
+    text-align: center;
+}
+.Brasileirão{
+    text-align: center;
+}
+.palmeiras{
+    border: 1px solid #000;
+    width: 400px;
+    height: auto;
+}
+.santos2 {
+    border: 1px solid #000;
+    width: 400px;
+    height: auto;
+}
+.flamengo{
+    border: 1px solid #000;
+    width: 400px;
+    height: auto;
+}
+* {
+    padding: 0;
+    margin: 0;
+  }
+  h3{
+    margin: 10px;
+  }

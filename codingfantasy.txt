@@ -1,0 +1,182 @@
+O justify-content: define como o navegador distribui o espaço entre e ao redor dos itens horizontalmente.
+Nível 1:
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+- Esse bloco teve como função a centralização dos itens.
+Nível 2:
+#field {
+    display: flex;
+    justify-content: flex-end;
+}
+- Neste bloco é possivel fazer com que o item se mova para o canto superior direito ou inferior.
+Nível 3:
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+- alinhar o primeiro e o último item será nivelado nas pontas do recipiente e todo espaço será igualmente entre os dois.
+Nível 4:
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+- alinha os itens de forma igual com a metade de tamanho em cada extremidade.
+Nível 5:
+.wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+- separa os itens com um espaço igual.
+Nível 6:
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+- Move os itens verticalmente para o centro.
+Nível 7:
+.wrapper {
+  display: flex;
+  align-items: flex-end;
+}
+- Move os itens verticalmente para o final da página.
+Nível 8:
+#field {
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+- Move os items verticalmente para o centro e depois horizontalmente para o centro da página.
+Nivel 9:
+#field {
+    display: flex;
+align-items: flex-end;
+justify-content: space-between;
+}
+- move os itens verticalmente para o final da página e alinha igualmente os itens na horizontal.
+Nível 10:
+flex-direction: especifíca a direção dos itens flexíveis
+#field {
+    display: flex;
+flex-direction: column;
+}
+- Move os itens em forma de coluna
+Nível 11:
+#field {
+    display: flex;
+flex-direction: row-reverse;
+}
+- Move os itens de forma horizontal para o canto superior direito.
+Nível 12:
+#field {
+    display: flex;
+flex-direction: column;
+justify-content: flex-end;
+}
+- Move para o canto inferior esquerdo.
+Nível 13:
+#field {
+    display: flex;
+flex-direction: row-reverse;
+justify-content: center;
+align-items: center;
+}
+- Move os itens ao contrário com o primeiro item sendo o último de forma horizontal para o centro da página.
+Nível 14:
+#field {
+    display: flex;
+}
+
+#arthur {
+order: 2;
+}
+- Move a imagem no lugar de outra.
+Nível 15:
+#field {
+    display: flex;
+}
+
+#marilyn {
+align-self: center;
+}
+- Move a imagem para o centro.
+Nível 16:
+#field {
+    display: flex;
+}
+
+#haymitch {
+align-self: flex-end;
+order: 1 
+}
+- Move a última imagem para o final da página e depois coloca na parte inferior esquerda.
+Nível 17:
+#field {
+    display: flex;
+flex-direction: column-reverse;
+justify-content: flex-end;
+align-items: center 
+}
+- Move os items em coluna na parte inferior esquerda depois coloca eles na parte superior esquerda e centraliza os itens.
+Mível 18:
+#field {
+    display: flex;
+    justify-content: center;
+}
+
+#arthur {
+align-self: center;
+order: 2
+}
+- Move o primeiro item para o centro da página e depois substituí com o segundo item.
+Nível 19:
+O envoltório flexível:A propriedade especifica se os itens flexíveis devem ser encapsulados ou não.
+#field {
+    display: flex;
+flex-wrap: wrap;
+}
+-Especifica que os itens flexíveis serão encapsulados, se necessário.
+Nível 20:
+#field {
+    display: flex;
+    flex-wrap: wrap;
+align-content: center;
+}
+-Se estendem para ocupar o espaço restante.
+Nível 21:
+#field {
+    display: flex;
+    flex-wrap: wrap; 
+align-content: flex-end;
+justify-content: center;
+}
+- Move para parte final da página e os três últimos itens ficam centralizadas.
+Nível 22:
+#field {
+    display: flex;
+flex-direction: column-reverse;
+justify-content: space-around;
+align-items: flex-end 
+}
+- Move os itens em coluna e inverte do primeiro para o último e coloca para o lado direito e alinha de forma central.
+Nível 23:
+#field {
+    display: flex;
+flex-direction: column-reverse;
+justify-content: center;
+flex-wrap: wrap-reverse;
+align-content: center;
+}
+- Move os itens em coluna e inverte do primeiro para o último depois centraliza e deixa três itens na frente.
+Nível 24:
+#field {
+    display: flex;
+}
+
+#arthur {
+align-self: center;
+order: 3
+}
+- Troca o primeiro item com o terceiro e depois centraliza na página.
